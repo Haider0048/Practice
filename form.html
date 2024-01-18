@@ -1,0 +1,106 @@
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        .h1 {
+            font-size: 30px;
+            color:#33acff;
+            font-weight: bold;
+            background-color: #393b3c;
+        }
+ body {
+            margin: 0 auto;
+            background-position: center;
+            background-size: contain;
+        } 
+
+        .page {
+            width: 100%;
+            position: sticky;
+            top: 0;
+            background-color: #33acff;
+            padding: 10px 0px 10px 0px;
+            color: white;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+.page {
+            left: auto;
+            float: left;
+        }
+
+footer {
+            width: 100%;
+            bottom: 0px;
+            background-color: #393b3c;
+            color: #fff;
+            position: absolute;
+            padding-top: 20px;
+            padding-bottom: 50px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+ 
+        .body_sec {
+            margin-left: 20px;
+        }
+
+
+</style>
+</head>
+<body>
+<div class="h1">Registration Form</div>
+
+<form class="page" >
+Username:<br>
+<input type="text" name="username">
+
+<br>
+Email id:<br>
+<input type="text" name="email_id"  id="email_id">
+
+<br>
+<label for="Age">Age:</label><br>
+<input type="number" name="Age" id="Age">
+<br>
+
+<input type="radio" name="Gender" id="Male">
+<label for="Male">Male</label>
+<input type="radio" name="Gender" id="Female">
+<label for="Female">Female</label>
+<br>
+
+<lable for="Country">Country</label>
+<select name="Country" id="Country">
+<option value="India">India</option>
+<option value="Australia">Australia</option>
+<option value="America">America</option>
+<option value="Sri-Lanka">Sri-Lanka</option>
+<option value="Dubai">Dubai</option>
+<option value="Saudi Arabia">Saudi Arabia</option>
+</select>
+<br>
+<br>
+<label for="Description">Description:</label>
+<textarea rows="4" cols="40" name="Description"  id="Description">
+</textarea>
+
+<br><br>
+<labled for="fileselect">Upload</label>
+<input type="file" name="upload" id="fileselect">
+<br><br>
+
+<input type="submit" value="submit">
+<input type="Reset" value="Reset">
+</form>
+
+<main class="body_sec">
+        <section id="Content">
+            <h3>Content section</h3>
+        </section>
+    </main>
+
+<footer> Footer Section</footer>
+</body>
+</html>
